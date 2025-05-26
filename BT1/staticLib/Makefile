@@ -16,7 +16,6 @@ create_obj:
 	gcc -c $(SRC_DIR)/$(LIB_NAME).c -o $(OBJ_DIR)/$(LIB_NAME).o $(HEADER_FLAGS)
 
 create_lib:
-	mkdir -p $(LIB_STATIC_DIR)
 	ar rcs $(LIB_STATIC_DIR)/lib$(LIB_NAME).a $(OBJ_DIR)/$(LIB_NAME).o
 
 linking:
