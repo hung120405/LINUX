@@ -1,0 +1,1 @@
+Dữ liệu sẽ xuất hiện ở cuối file vì cờ O_APPEND đảm bảo dữ liệu luôn được ghi ở cuối file, bất kể con trỏ đang ở vị trí nào
