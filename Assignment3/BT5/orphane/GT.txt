@@ -1,0 +1,2 @@
+Orphane là tiến trình con mà tiến trình cha kết thúc trước nó. Lúc này Linux kernel sẽ tự động gán orphane process làm con của init process (PID = 1), khiến PPID của nó thay đổi thành 1
+Lý do xuất hiện ở linux: tiến trình cha kết thúc sớm hơn con do lập trình không đồng bộ hoặc lỗi logic
