@@ -1,0 +1,1 @@
+Khi exec() được gọi, tiến trình con hoàn toàn bị thay thế bằng chương trình mới và tiến trình cha vẫn tiếp tục chạy bình thường

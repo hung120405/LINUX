@@ -1,0 +1,2 @@
+Zombie là tiến trình con đã kết thúc nhưng entry trong process table vẫn tồn tại vì tiến trình cha chưa gọi wait() để đọc exit status. Zombie process hiển thị trạng thái Z hoặc <defunct> trong lệnh ps.
+Lý do xuất hiện ở linux: tiến trình cha không gọi wait() sau khi con kết thúc, khiến kernel không thể giải phóng process table entry của con.
